@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">"Weightless"</string>
+    <string name="seekleft">"@#60@#60"</string>
+    <string name="seekRight">"@#62@#62"</string>
+</resources>

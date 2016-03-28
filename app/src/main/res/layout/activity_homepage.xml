@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relax"
+        android:id="@+id/bRelax"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_alignEnd="@+id/bFitBit"
+        android:layout_alignStart="@+id/bFitBit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analyze FitBit Data"
+        android:id="@+id/bFitBit"
+        android:layout_below="@+id/bRelax"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/bAbout"
+        android:layout_below="@+id/bTutorial"
+        android:layout_alignEnd="@+id/bTutorial"
+        android:layout_alignStart="@+id/bTutorial" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theory"
+        android:id="@+id/bTutorial"
+        android:layout_below="@+id/bFitBit"
+        android:layout_alignEnd="@+id/bFitBit"
+        android:layout_alignStart="@+id/bFitBit" />
+
+    <ImageView
+        android:layout_width="750px"
+        android:layout_height="350px"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/bFitBit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentEnd="true"
+        />
+</RelativeLayout>

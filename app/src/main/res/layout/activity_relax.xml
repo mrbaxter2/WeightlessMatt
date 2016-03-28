@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Going to sleeep?"
+        android:id="@+id/cbSleep"
+        android:checked="true"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/spinOrder"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp" />
+
+    <Spinner
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/spinTime"
+        android:spinnerMode="dropdown"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="500dp"
+        android:layout_height="45dp"
+        android:id="@+id/spinOrder"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick an Order: "
+        android:id="@+id/textView13"
+        android:layout_above="@+id/spinOrder"
+        android:layout_centerHorizontal="true"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How long would you like to relax?"
+        android:id="@+id/textView14"
+        android:textSize="23dp"
+        android:layout_above="@+id/spinTime"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Relaxing"
+        android:id="@+id/bStart"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/cbSleep"
+        android:layout_alignStart="@+id/textView13" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimal Prompts"
+        android:id="@+id/cbPrompts"
+        android:layout_alignTop="@+id/cbSleep"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="38dp"
+        android:checked="false" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="times">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="order">
+        <item>top to bottom</item>
+        <item>bottom to top</item>
+    </string-array>
+
+</resources>
